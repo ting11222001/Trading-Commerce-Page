@@ -15,7 +15,7 @@ const Navbar = (props: Props) => {
         <div>
           <h1 className='text-blue'>Trading.co</h1>
         </div>
-        <div className='hidden md:flex'>
+        <div className='hidden lg:flex'>
           <ul className='flex text-white items-center'>
             <li className='text-2xl'>Platform</li>
             <li className='text-2xl'>Developers</li>
@@ -23,10 +23,10 @@ const Navbar = (props: Props) => {
             <li className='text-2xl'>About</li>
           </ul>
 
-          <button className='text-white ml-4'>Use</button>
+          <button className='text-white ml-4 text-2xl'>Buy</button>
         </div>
-        {/* Hamnurger menu */}
-        <div onClick={handleMenu} className='block md:hidden'>
+        {/* Hamburger menu */}
+        <div onClick={handleMenu} className='block lg:hidden'>
           {menu ? (
             <AiOutlineClose size={30} className="text-white" />
           ) : (
