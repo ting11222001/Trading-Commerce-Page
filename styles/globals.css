@@ -2,8 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
 @layer base {
+  html {
+    @apply font-custom;
+  }
+
   h1 {
     @apply text-3xl font-bold;
+  }
+
+  li {
+    @apply px-4;
+  }
+
+  button {
+    @apply bg-gradient-to-r from-[#00d8ff] to-[#6a00ff] py-3 px-7 rounded-3xl;
   }
 }
