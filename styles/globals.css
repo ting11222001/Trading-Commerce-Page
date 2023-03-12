@@ -10,14 +10,14 @@
   }
 
   h1 {
-    @apply text-3xl font-bold;
+    @apply text-3xl font-extrabold;
   }
 
-  li {
-    @apply p-4;
+  a {
+    @apply text-xl font-light;
   }
 
   button {
-    @apply bg-gradient-to-r from-green to-purple py-3 px-7 rounded-3xl;
+    @apply text-white bg-gradient-to-r from-green to-purple py-3 px-7 rounded-3xl text-xl font-light;
   }
 }

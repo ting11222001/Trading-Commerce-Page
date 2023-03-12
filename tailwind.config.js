@@ -12,7 +12,7 @@ module.exports = {
       'purple': '#1e40af',
       'black': '#000000',
       'white': '#ffffff',
-      'green': '#16a34a',
+      'green': '#4ade80',
     },
     fontFamily: {
       'custom': ['Cabin', 'sans-serif'],

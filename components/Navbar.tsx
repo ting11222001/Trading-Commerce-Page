@@ -13,17 +13,17 @@ const Navbar = (props: Props) => {
     <div className='w-full h-[90px] bg-black'>
       <div className='max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full'>
         <div>
-          <h1 className='text-green'>Trading.co</h1>
+          <h1 className='text-green'>TRADING</h1>
         </div>
         <div className='hidden lg:flex'>
-          <ul className='flex text-white items-center'>
-            <li className='text-2xl'>Platform</li>
-            <li className='text-2xl'>Developers</li>
-            <li className='text-2xl'>Community</li>
-            <li className='text-2xl'>About</li>
-          </ul>
+          <div className='flex text-white items-center space-x-4'>
+            <a href='#'>Platform</a>
+            <a href='#'>Developers</a>
+            <a href='#'>Community</a>
+            <a href='#'>About</a>
+          </div>
 
-          <button className='text-white ml-4 text-2xl'>Buy</button>
+          <button className='ml-4'>Join</button>
         </div>
         {/* Hamburger menu */}
         <div onClick={handleMenu} className='block lg:hidden'>
