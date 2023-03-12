@@ -17,10 +17,9 @@ const Navbar = (props: Props) => {
         </div>
         <div className='hidden lg:flex'>
           <div className='flex text-white items-center space-x-4'>
-            <a href='#'>Platform</a>
-            <a href='#'>Developers</a>
-            <a href='#'>Community</a>
-            <a href='#'>About</a>
+            <a href='#about'>About</a>
+            <a href='#why'>Choose us</a>
+            <a href='#connect'>Connect</a>
           </div>
 
           <button className='ml-4'>Join</button>
@@ -36,12 +35,11 @@ const Navbar = (props: Props) => {
 
         {/* Mobile menu */}
         <div className={menu ? 'w-full bg-black text-white absolute top-[90px] left-0 flex justify-center text-center' : 'absolute left-[-100%]'} >
-          <div className='flex flex-col text-white items-center space-y-4'>
-            <a href='#'>Platform</a>
-            <a href='#'>Developers</a>
-            <a href='#'>Community</a>
-            <a href='#'>About</a>
-            <button className='mt-4'>Join</button>
+          <div className='flex flex-col text-white items-center'>
+            <a href='#about' className='mb-4'>About</a>
+            <a href='#why' className='mb-4'>Choose us</a>
+            <a href='#connect' className='mb-4'>Connect</a>
+            <button className='my-4'>Join</button>
           </div>
         </div>
       </div>

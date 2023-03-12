@@ -5,7 +5,7 @@ type Props = {}
 const Developer = (props: Props) => {
   return (
     <div className='w-full text-white bg-black text-center py-32'>
-      <div className='max-w-[1240px] mx-auto px-4 py-16 md:flex'>
+      <div id='why' className='max-w-[1240px] mx-auto px-4 py-16 md:flex'>
         <div>
           <h1>Why trade with us</h1>
           <p className='font-light text-lg py-8 pr-4'>

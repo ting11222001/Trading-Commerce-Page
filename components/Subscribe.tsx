@@ -4,8 +4,8 @@ type Props = {}
 
 const Subscribe = (props: Props) => {
   return (
-    <div className='w-full text-white bg-black text-center py-8'>
-      <h1 className='mb-8'>Connect with us</h1>
+    <div className='w-full text-white bg-black text-center py-8 pb-16'>
+      <h1 id='connect' className='mb-8'>Connect with us</h1>
       <div>
         <input type="email" placeholder='Enter your email' className='font-light text-lg p-4 rounded-3xl mr-4' />
         <button className='ml-4'>Sign up</button>
