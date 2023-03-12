@@ -8,10 +8,10 @@ type Props = {}
 
 const About = (props: Props) => {
   return (
-    <div className='w-full bg-black text-white text-center pt-16'>
-      < div className='max-w-[1240px] mx-auto px-4 py-16' >
+    <div id='about' className='w-full bg-black text-white text-center py-16'>
+      <div className='max-w-[1240px] mx-auto px-4'>
         <div>
-          <h1 id='about' className='py-4'>About us</h1>
+          <h1 className='py-4'>About us</h1>
           <p className='font-light text-lg mb-8'>
             As a technology-driven trading firm we develop innovative technology and algorithms to trade in all major asset classes on more than 100 trading venues around the world.
           </p>

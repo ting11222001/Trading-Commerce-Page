@@ -10,10 +10,11 @@ const Navbar = (props: Props) => {
   };
 
   return (
-    <div className='w-full h-[90px] bg-black'>
+    <div className='w-full h-[90px] bg-black sticky top-0'>
       <div className='max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full'>
         <div>
-          <h1 className='text-green'>TRADING</h1>
+          <a href="#top">
+            <h1 className='text-green'>TRADING</h1></a>
         </div>
         <div className='hidden lg:flex'>
           <div className='flex text-white items-center space-x-4'>
