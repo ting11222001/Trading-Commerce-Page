@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
 type Props = {}
 
 const Navbar = (props: Props) => {
+  const [menu, setMenu] = useState(false);
+  const handleMenu = () => {
+    setMenu(!menu);
+  };
+
   return (
     <div className='w-full h-[90px] bg-black'>
       <div className='max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full'>
@@ -12,20 +17,25 @@ const Navbar = (props: Props) => {
         </div>
         <div className='hidden md:flex'>
           <ul className='flex text-white items-center'>
-            <li>Platform</li>
-            <li>Developers</li>
-            <li>Community</li>
-            <li>About</li>
-            <button className='text-white ml-4'>Use Trading.co</button>
+            <li className='text-2xl'>Platform</li>
+            <li className='text-2xl'>Developers</li>
+            <li className='text-2xl'>Community</li>
+            <li className='text-2xl'>About</li>
           </ul>
+
+          <button className='text-white ml-4'>Use</button>
         </div>
         {/* Hamnurger menu */}
-        <div className='block md:hidden'>
-          <AiOutlineMenu size={30} className="text-white" />
+        <div onClick={handleMenu} className='block md:hidden'>
+          {menu ? (
+            <AiOutlineClose size={30} className="text-white" />
+          ) : (
+            <AiOutlineMenu size={30} className="text-white" />
+          )}
         </div>
 
         {/* Mobile menu */}
-        <div className='w-full bg-black text-white absolute top-[90px] left-0 flex justify-center text-center'>
+        <div className={menu ? 'w-full bg-black text-white absolute top-[90px] left-0 flex justify-center text-center' : 'absolute left-[-100%]'} >
           <ul>
             <li>Platform</li>
             <li>Developers</li>

@@ -14,7 +14,7 @@
   }
 
   li {
-    @apply p-4 text-2xl;
+    @apply p-4;
   }
 
   button {
