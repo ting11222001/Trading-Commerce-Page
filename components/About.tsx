@@ -21,7 +21,7 @@ const About = (props: Props) => {
               <AboutCard key={data.id} icon={data.icon} title={data.title} description={data.description} />
             ))}
           </div>
-          <button className='mt-8'>Learn more</button>
+          <button className='mt-8 bg-gradient-to-r from-green to-purple hover:from-pink hover:to-yellow'>Learn more</button>
         </div>
       </div >
     </div >

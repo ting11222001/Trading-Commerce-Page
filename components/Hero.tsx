@@ -19,8 +19,7 @@ const Hero = (props: Props) => {
         <h1 className='py-2'><span className='text-green'>algorithmic</span> trading</h1>
         <p className='text-xl py-4'>Leading liquidity trading for millions of users</p>
         <div className='flex'>
-          <button className='m-2'>Learn more</button>
-          <button className='m-2'>FAQ</button>
+          <button className='m-2 bg-gradient-to-r from-green to-purple hover:from-pink hover:to-yellow'>Learn more</button>
         </div>
       </div>
     </div>
