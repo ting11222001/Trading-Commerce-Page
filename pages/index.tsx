@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Developer from "@/components/Developer";
 import Subscribe from "@/components/Subscribe";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <About />
       <Developer />
       <Subscribe />
+      <Footer />
     </h1>
   )
 }

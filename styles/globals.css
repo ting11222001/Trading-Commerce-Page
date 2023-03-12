@@ -13,6 +13,7 @@
     @apply text-3xl font-extrabold;
   }
 
+  li,
   a {
     @apply text-xl font-light;
   }
