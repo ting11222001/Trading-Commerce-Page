@@ -36,13 +36,13 @@ const Navbar = (props: Props) => {
 
         {/* Mobile menu */}
         <div className={menu ? 'w-full bg-black text-white absolute top-[90px] left-0 flex justify-center text-center' : 'absolute left-[-100%]'} >
-          <ul>
-            <li>Platform</li>
-            <li>Developers</li>
-            <li>Community</li>
-            <li>About</li>
-            <button className='text-white m-8'>Use Trading.co</button>
-          </ul>
+          <div className='flex flex-col text-white items-center space-y-4'>
+            <a href='#'>Platform</a>
+            <a href='#'>Developers</a>
+            <a href='#'>Community</a>
+            <a href='#'>About</a>
+            <button className='mt-4'>Join</button>
+          </div>
         </div>
       </div>
     </div>
