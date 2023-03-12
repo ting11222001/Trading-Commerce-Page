@@ -9,10 +9,10 @@ module.exports = {
     extend: {},
     colors: {
       'blue': '#00d8ff',
-      'purple': '#6a00ff',
+      'purple': '#1e40af',
       'black': '#000000',
       'white': '#ffffff',
-      'green': '#14b8a6',
+      'green': '#16a34a',
     },
     fontFamily: {
       'custom': ['Cabin', 'sans-serif'],
