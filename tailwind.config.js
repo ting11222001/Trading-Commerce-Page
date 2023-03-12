@@ -13,6 +13,8 @@ module.exports = {
       'black': '#000000',
       'white': '#ffffff',
       'green': '#4ade80',
+      'pink': '#ec4899',
+      'yellow': '#eab308',
     },
     fontFamily: {
       'custom': ['Cabin', 'sans-serif'],

@@ -22,7 +22,7 @@ const Navbar = (props: Props) => {
             <a href='#connect'>Connect</a>
           </div>
 
-          <button className='ml-4'>Join</button>
+          <button className='ml-4 bg-gradient-to-r from-green to-purple hover:from-pink hover:to-yellow'>Join</button>
         </div>
         {/* Hamburger menu */}
         <div onClick={handleMenu} className='block lg:hidden'>
@@ -39,7 +39,7 @@ const Navbar = (props: Props) => {
             <a href='#about' className='mb-4'>About</a>
             <a href='#why' className='mb-4'>Choose us</a>
             <a href='#connect' className='mb-4'>Connect</a>
-            <button className='my-4'>Join</button>
+            <button className='my-4 bg-gradient-to-r from-green to-purple hover:from-pink hover:to-yellow'>Join</button>
           </div>
         </div>
       </div>
